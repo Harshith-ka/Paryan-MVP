@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --terra: hsl(24, 69%, 46%);
+    --sage: hsl(87, 24%, 48%);
+    --amber: hsl(43, 89%, 66%);
+    --charcoal: hsl(210, 29%, 24%);
+    --warm-gray: hsl(43, 13%, 93%);
+    --cream: hsl(45, 56%, 96%);
+    
+    --background: hsl(45, 56%, 96%);
+    --foreground: hsl(210, 29%, 24%);
+    --card: hsl(0, 0%, 100%);
+    --card-foreground: hsl(210, 29%, 24%);
+    --popover: hsl(0, 0%, 100%);
+    --popover-foreground: hsl(210, 29%, 24%);
+    --primary: hsl(24, 69%, 46%);
+    --primary-foreground: hsl(0, 0%, 100%);
+    --secondary: hsl(87, 24%, 48%);
+    --secondary-foreground: hsl(0, 0%, 100%);
+    --muted: hsl(43, 13%, 93%);
+    --muted-foreground: hsl(210, 29%, 50%);
+    --accent: hsl(43, 89%, 66%);
+    --accent-foreground: hsl(210, 29%, 24%);
+    --destructive: hsl(0, 84%, 60%);
+    --destructive-foreground: hsl(0, 0%, 100%);
+    --border: hsl(43, 89%, 66%, 0.2);
+    --input: hsl(210, 13%, 90%);
+    --ring: hsl(24, 69%, 46%);
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: hsl(210, 29%, 16%);
+    --foreground: hsl(0, 0%, 95%);
+    --card: hsl(210, 29%, 20%);
+    --card-foreground: hsl(0, 0%, 95%);
+    --popover: hsl(210, 29%, 20%);
+    --popover-foreground: hsl(0, 0%, 95%);
+    --primary: hsl(24, 69%, 56%);
+    --primary-foreground: hsl(0, 0%, 100%);
+    --secondary: hsl(87, 24%, 58%);
+    --secondary-foreground: hsl(0, 0%, 100%);
+    --muted: hsl(210, 29%, 24%);
+    --muted-foreground: hsl(210, 29%, 70%);
+    --accent: hsl(43, 89%, 76%);
+    --accent-foreground: hsl(210, 29%, 16%);
+    --destructive: hsl(0, 84%, 60%);
+    --destructive-foreground: hsl(0, 0%, 100%);
+    --border: hsl(210, 29%, 30%);
+    --input: hsl(210, 29%, 30%);
+    --ring: hsl(24, 69%, 56%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+}
+
+.font-nunito {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.text-terra {
+  color: var(--terra);
+}
+
+.text-sage {
+  color: var(--sage);
+}
+
+.text-amber {
+  color: var(--amber);
+}
+
+.text-charcoal {
+  color: var(--charcoal);
+}
+
+.text-warm-gray {
+  color: var(--warm-gray);
+}
+
+.text-cream {
+  color: var(--cream);
+}
+
+.bg-terra {
+  background-color: var(--terra);
+}
+
+.bg-sage {
+  background-color: var(--sage);
+}
+
+.bg-amber {
+  background-color: var(--amber);
+}
+
+.bg-charcoal {
+  background-color: var(--charcoal);
+}
+
+.bg-warm-gray {
+  background-color: var(--warm-gray);
+}
+
+.bg-cream {
+  background-color: var(--cream);
+}
+
+.border-amber {
+  border-color: var(--amber);
+}
+
+.hover\:bg-terra\/90:hover {
+  background-color: hsl(24, 69%, 46%, 0.9);
+}
+
+.hover\:text-terra:hover {
+  color: var(--terra);
+}
+
+.hover\:text-sage:hover {
+  color: var(--sage);
+}

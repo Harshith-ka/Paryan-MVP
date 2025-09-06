@@ -1,0 +1,61 @@
+Design a fully functional frontend for a tourism platform inspired by TripAdvisor. The main goals are to connect travelers, highlight local village cultures, and promote unique stays. Ensure all TripAdvisor main features are included as dedicated, easy-to-navigate pages, with a distinct and attractive user interface that stands out and engages travel enthusiasts.
+
+Core Requirements
+Modern, Professional, and Attractive UI
+Use a vibrant, travel-themed color palette and clear typography. Incorporate custom illustrations/icons and display enticing local imagery. Prioritize intuitive layouts to keep users engaged.
+
+Dedicated Pages and Features
+Every major feature must have its own clear page (not single page/mixed tabs):
+
+Home/Landing Page: Hero section, intro to local village cultures, featured stays, and top communities.
+
+Explore Destinations: Grid/list of places with filters (villages, regions). Details focus on cultural experiences.
+
+Stay Listings: Village homestays, B&Bs, eco-lodges. Each with dedicated details, galleries, amenity lists, reviews.
+
+Attractions & Activities: Pages for local events, guided tours, traditions, food experiences, nature spots, etc.
+
+Community Hub: Traveler forum/discussion boards, local Q&A, travel stories, meetups/events.
+
+Create & Join Groups: Travelers can form/join groups based on interests or destinations.
+
+Review and Ratings: Dedicated review submission and browsing page.
+
+Local Hosts: Host profiles, messaging, booking inquiry forms.
+
+Itinerary Planner: Build, save, and share custom travel plans.
+
+Travel Guides: Curated guides, tips, and itineraries focusing on authentic local experiences.
+
+User Profiles: Saved stays, history, wishlist, and social features.
+
+Top Lists: Best-rated villages, hosts, activities, etc.
+
+UI & Experience Guidelines
+Unique accent colors, hand-crafted icons, and lots of high-res travel photography.
+
+Card layouts for listings; map integration on explore/stay pages.
+
+Consistent navigation bar and clear CTAs.
+
+Responsive design for desktop, tablet, mobile.
+
+Community sections recognizable and central.
+
+Minimal popup/modal use; prioritize full-page experiences.
+
+Easy onboarding for new travelers and hosts.
+
+Technical Requirements
+Frontend Only: Implement using React, Vue, Svelte, or preferred modern JS framework.
+
+Use mock/static data for MVP where necessary.
+
+All pages must be separately accessible via navigation.
+
+Interactivity/UX should simulate full functionality (review system, chat, search/filter, etc.).
+
+Clear, maintainable component structure and reusable UI elements.
+
+Main Goal:
+Build an MVP tourism site that feels distinct from TripAdvisor by focusing on traveler community bonding and showcasing authentic local village culture. Make it visually memorable and fun for travelers to connect, share, and discover.
