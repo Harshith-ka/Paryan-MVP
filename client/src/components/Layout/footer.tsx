@@ -13,7 +13,7 @@ export default function Footer() {
                   <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-nunito font-bold">VillageWander</h3>
+              <h3 className="text-xl font-nunito font-bold">Paryan</h3>
             </div>
             <p className="text-white/70">Connecting travelers with authentic village experiences and local communities worldwide.</p>
             <div className="flex space-x-4">
@@ -73,7 +73,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-white/70">&copy; 2024 VillageWander. All rights reserved.</p>
+          <p className="text-white/70">&copy; 2025 Paryan. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-white/70 hover:text-terra transition-colors">Privacy Policy</a>
             <a href="#" className="text-white/70 hover:text-terra transition-colors">Terms of Service</a>
